@@ -138,12 +138,12 @@ header {
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
-	border: 3px solid #FFFFFF;
-	color: #FFFFFF;
+	border: 3px solid #8B0000;
+	color: #8B0000;
 	transition: all 0.3s linear;
 }
 .button:hover {
-	background-color: #6DC7D0;
+	background-color: #8B0000;
 	color: #FFFFFF;
 	cursor: pointer;
 }
