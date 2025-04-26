@@ -10,12 +10,12 @@ body {
 }
 #header {
  width: 900px;
- color: #333;
+ color: white;
  padding: 10px;
  border: 1px solid #ccc;
  height: 100px;
  margin: 10px 0px 0px 0px;
- background: #DAC8BF;
+ background: #8B0000;
 }
 #navigation {
  width: 900px;
@@ -29,16 +29,42 @@ body {
  width: 900px;
  color: #333;
  border: 1px solid #ccc;
- background:#CCC8B3;
+ background:#8B0000;
  margin: 0px 0px 0px 0px;
  padding: 10px;
  height: 350px;
+ 
 }
 #footer { 
  width: 900px;
- color: #333;
+ color: #8B0000;
  border: 1px solid #ccc;
- background-color:#F3F2ED;
+ background-color:#8B0000;
  margin: 0px 0px 10px 0px;
  padding: 10px;
+}
+.button {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #8B0000;
+	color: #8B0000;
+	transition: all 0.3s linear;
+}
+.button:hover {
+	background-color: #8B0000;
+	color: white;
+	cursor: pointer;
 }
